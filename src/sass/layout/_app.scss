@@ -1,4 +1,6 @@
-@import url('../abstracts/mixins/_cards.scss');
+//@import '../abstracts/mixins/_cards.scss';
+
 .App{
-    @include card;
+    /* @include card; */
+    color: rgb(75, 221, 26);
 }
