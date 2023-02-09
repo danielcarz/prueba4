@@ -1,0 +1,22 @@
+//variables
+//@import url('../variables/variables');
+
+@mixin emoticon($width, $height) {
+    width: $width ;
+    height: $height;
+}
+
+@mixin card_image($width, $height) {
+    width: $width ;
+    height: $height;
+}
+
+@mixin card {
+    @include emoticon(10px, 10px);
+    @include card_image(50px,50px);
+    
+    color: $color_text;
+    font-size: $size_text;
+
+    
+}

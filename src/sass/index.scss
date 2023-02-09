@@ -1,10 +1,11 @@
+
 #root {
     max-width: 1280px;
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
+    
   
-    background-color: rgb(17, 31, 236);
   }
 
-@import url('./layout/_app.scss');
+  @import url('./layout/_app.scss');

@@ -1,4 +1,4 @@
-
+import ('./sass/layout/_app.scss')
 
 function App() {
   
