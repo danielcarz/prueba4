@@ -18,7 +18,7 @@ const Servicies = () => {
                 <img src="" alt="Servicios" />
            </figure>
 
-           <div>
+           <div className="text_servicie_wrapper">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatibus at itaque dignissimos ipsam laborum nostrum ipsum sunt! Totam, inventore. Soluta at porro recusandae ullam cumque praesentium voluptatem iste sed?
                 </p>

@@ -15,7 +15,10 @@
     height: $height;
 }
 
-
+@mixin text {
+    text-align: left;
+    padding: 20px;
+}
 
 @mixin card($width:100%, $height:auto) {
 

@@ -16,6 +16,10 @@
             border: 1px solid black;
         }
 
+        .text_servicie_wrapper p{
+            @include text
+        }
+
         .button_servicies{
             @include boton(100px, 30px, 10px)
         }
