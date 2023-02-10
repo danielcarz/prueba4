@@ -1,11 +1,14 @@
 import ('./sass/layout/_app.scss')
 
+//COMPONENTS
+import {Servicies} from "./components/servicies"
+
 function App() {
   
 
   return (
     <div className="App">
-      <h1>hello reiki</h1>
+      <Servicies></Servicies>
     </div>
   )
 }

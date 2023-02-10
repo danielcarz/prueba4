@@ -1,0 +1,5 @@
+@import '../abstracts/mixins/_mixin_cards.scss';
+
+.servicies_container{
+    @include card
+}
