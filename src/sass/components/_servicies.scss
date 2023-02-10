@@ -1,5 +1,10 @@
 @import '../abstracts/mixins/_mixin_cards.scss';
+@import '../abstracts/mixins/media_queries';
 
-.servicies_container{
-    @include card();
+
+@include phone{
+    .servicies_container{
+        @include card();
+    }
+    
 }
