@@ -1,5 +1,5 @@
 //variables
-//@import url('../variables/variables');
+@import '../variables/_variables.scss';
 
 @mixin emoticon($width, $height) {
     width: $width ;
