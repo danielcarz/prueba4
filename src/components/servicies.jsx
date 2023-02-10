@@ -25,7 +25,7 @@ const Servicies = () => {
                 <p>$ 100.000.00</p>
            </div>
 
-           <div>
+           <div className="button_servicies_wrapper">
                 <button className="button_servicies">Reserva</button>
            </div>
            

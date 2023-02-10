@@ -20,9 +20,17 @@
             @include text
         }
 
-        .button_servicies{
-            @include boton(100px, 30px, 10px)
+        .button_servicies_wrapper{
+            
+            text-align: center;
+            
+            .button_servicies{
+                
+                @include boton(100px, 30px, 10px);
+                
+            }
         }
+        
     }
     
 }
