@@ -7,10 +7,14 @@ const Servicies = () => {
 
     return(
         <section className="servicies_container">
-           <section>
+           <figure className="emoticons_servicies">
+
                 <img src="" alt="emoticon" />
-           </section>
-           <figure>
+           
+           </figure>
+               
+           
+           <figure className="image_servicios_wrapper">
                 <img src="" alt="Servicios" />
            </figure>
 
@@ -22,7 +26,7 @@ const Servicies = () => {
            </div>
 
            <div>
-                <button>Reserva</button>
+                <button className="button_servicies">Reserva</button>
            </div>
            
         </section>
