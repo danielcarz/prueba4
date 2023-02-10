@@ -1,0 +1,10 @@
+@import '../variables/_variables.scss';
+
+@mixin boton($width, $height, $border) {
+
+    width: $width;
+    height: $height;
+    border-radius: $border;
+
+    background-color:  $color_backgrounds_buttons;
+}

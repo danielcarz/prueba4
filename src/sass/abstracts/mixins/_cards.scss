@@ -1,5 +1,7 @@
 //variables
 @import '../variables/_variables.scss';
+//boton
+@import './boton';
 
 @mixin emoticon($width, $height) {
     width: $width ;
@@ -14,6 +16,7 @@
 @mixin card {
     @include emoticon(10px, 10px);
     @include card_image(50px,50px);
+    @include boton(100%, 150px, 10px);
     
     color: $color_text;
     font-size: $size_text;
