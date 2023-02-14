@@ -2,6 +2,7 @@ import React from "react";
 
 //IMAGES
 import emoticon from '../assets/emoticons/masaje-corporal.png'
+import reiki from '../assets/images/IMG_6885.jpg'
 
 
 const Servicies = () => {
@@ -16,7 +17,7 @@ const Servicies = () => {
                
            
            <figure className="image_servicios_wrapper">
-                <img src="" alt="Servicios" />
+                <img src={reiki} alt="Servicios" />
            </figure>
 
            <div className="text_servicie_wrapper">

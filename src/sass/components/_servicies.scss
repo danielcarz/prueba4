@@ -11,8 +11,12 @@
         }
 
         .image_servicios_wrapper{
-            @include card_image(80%, 40px);
+            @include card_image(300px, 200px);
             border: 1px solid black;
+
+            img{
+                @include emoticon(300px, 200px)
+            }
         }
 
         .text_servicie_wrapper p{

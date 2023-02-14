@@ -21,7 +21,7 @@
     padding: 20px;
 }
 
-@mixin card($width:100%, $height:auto) {
+@mixin card($width:100%, $height:auto, $padding:5px) {
 
     color: $color_text;
     font-size: $size_text;
@@ -29,6 +29,7 @@
 
     width: $width;
     height: $height;
+    padding: $padding;
 
     background-color: $color_backgrounds_cards;
 

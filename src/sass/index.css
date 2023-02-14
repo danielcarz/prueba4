@@ -17,6 +17,7 @@ body {
     font-size: 16px;
     width: 100%;
     height: auto;
+    padding: 5px;
     background-color: #E6F5F5;
   }
   .servicies_container .emoticons_servicies {
@@ -29,9 +30,13 @@ body {
     height: 60px;
   }
   .servicies_container .image_servicios_wrapper {
-    width: 80%;
-    height: 40px;
+    width: 300px;
+    height: 200px;
     border: 1px solid black;
+  }
+  .servicies_container .image_servicios_wrapper img {
+    width: 300px;
+    height: 200px;
   }
   .servicies_container .text_servicie_wrapper p {
     text-align: left;
