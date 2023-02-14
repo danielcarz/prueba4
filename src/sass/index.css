@@ -1,13 +1,52 @@
-/* @import url('./layout/_app.scss'); */
-body {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body #root {
-  width: 100%;
-  padding: 0;
+/* size of  emoticons, tittles, subtittles and text */
+/* font of letters */
+/* color of text, backgrounds, text, tittle, subtittle */
+/* size of  emoticons, tittles, subtittles and text */
+/* font of letters */
+/* color of text, backgrounds, text, tittle, subtittle */
+/* size of  emoticons, tittles, subtittles and text */
+/* font of letters */
+/* color of text, backgrounds, text, tittle, subtittle */
+/* size of  emoticons, tittles, subtittles and text */
+/* font of letters */
+/* color of text, backgrounds, text, tittle, subtittle */
+/* size of  emoticons, tittles, subtittles and text */
+/* font of letters */
+/* color of text, backgrounds, text, tittle, subtittle */
+/* size of  emoticons, tittles, subtittles and text */
+/* font of letters */
+/* color of text, backgrounds, text, tittle, subtittle */
+@media (max-width: 500px) {
+  .servicies_container {
+    color: #49166B;
+    font-size: 16px;
+    width: 100%;
+    height: auto;
+    background-color: #E6F5F5;
+  }
+  .servicies_container .emoticons_servicies {
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+  }
+  .servicies_container .image_servicios_wrapper {
+    width: 80%;
+    height: 40px;
+    border: 1px solid black;
+  }
+  .servicies_container .text_servicie_wrapper p {
+    text-align: left;
+    padding: 20px;
+  }
+  .servicies_container .button_servicies_wrapper {
+    text-align: center;
+  }
+  .servicies_container .button_servicies_wrapper .button_servicies {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #308D7C;
+  }
 }
 /*# sourceMappingURL=index.css.map */

@@ -1,5 +1,3 @@
-import ('./sass/layout/_app.scss')
-
 //COMPONENTS
 import {Servicies} from "./components/servicies"
 

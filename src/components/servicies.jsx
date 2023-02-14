@@ -1,7 +1,6 @@
 import React from "react";
 
-//sass
-import '../sass/components/_servicies.scss'
+
 
 const Servicies = () => {
 
