@@ -16,6 +16,13 @@
 /* size of  emoticons, tittles, subtittles and text */
 /* font of letters */
 /* color of text, backgrounds, text, tittle, subtittle */
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 @media (max-width: 500px) {
   .servicies_container {
     color: #49166B;
