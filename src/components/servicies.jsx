@@ -1,5 +1,7 @@
 import React from "react";
 
+//IMAGES
+import emoticon from '../assets/emoticons/masaje-corporal.png'
 
 
 const Servicies = () => {
@@ -8,7 +10,7 @@ const Servicies = () => {
         <section className="servicies_container">
            <figure className="emoticons_servicies">
 
-                <img src="" alt="emoticon" />
+                <img src={emoticon} alt="emoticon" />
            
            </figure>
                

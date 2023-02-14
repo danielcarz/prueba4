@@ -1,14 +1,15 @@
-//variables
-@import '../variables/_variables.scss';
-//boton
-@import './_boton.scss';
+@mixin emoticon($width, $height){
+    width: $width;
+    height: $height;
+}
 
-@mixin emoticon($width, $height) {
+@mixin emoticon_wrapper($width, $height) {
     width: $width ;
     height: $height;
 
     border: 1px solid black;
 }
+
 
 @mixin card_image($width, $height) {
     width: $width ;

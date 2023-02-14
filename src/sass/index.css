@@ -4,18 +4,6 @@
 /* size of  emoticons, tittles, subtittles and text */
 /* font of letters */
 /* color of text, backgrounds, text, tittle, subtittle */
-/* size of  emoticons, tittles, subtittles and text */
-/* font of letters */
-/* color of text, backgrounds, text, tittle, subtittle */
-/* size of  emoticons, tittles, subtittles and text */
-/* font of letters */
-/* color of text, backgrounds, text, tittle, subtittle */
-/* size of  emoticons, tittles, subtittles and text */
-/* font of letters */
-/* color of text, backgrounds, text, tittle, subtittle */
-/* size of  emoticons, tittles, subtittles and text */
-/* font of letters */
-/* color of text, backgrounds, text, tittle, subtittle */
 body {
   margin: 0;
   padding: 0;
@@ -32,9 +20,13 @@ body {
     background-color: #E6F5F5;
   }
   .servicies_container .emoticons_servicies {
-    width: auto;
-    height: auto;
+    width: 60px;
+    height: 60px;
     border: 1px solid black;
+  }
+  .servicies_container .emoticons_servicies img {
+    width: 60px;
+    height: 60px;
   }
   .servicies_container .image_servicios_wrapper {
     width: 80%;

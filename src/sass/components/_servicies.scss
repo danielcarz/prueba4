@@ -1,11 +1,13 @@
-
-
 @include phone{
     .servicies_container{
         @include card;
 
         .emoticons_servicies{
-            @include emoticon(auto, auto);
+            @include emoticon_wrapper(60px, 60px);
+
+            img{
+                @include emoticon(60px, 60px);
+            }
         }
 
         .image_servicios_wrapper{
