@@ -1,7 +1,7 @@
 //MIXIN
 
 @mixin phone { 
-    @media (max-width: 538px) {
+    @media (max-width: 809px) {
         @content
      }
 };
@@ -13,7 +13,7 @@
 };
 
 @mixin tablet { 
-    @media (min-width: 539px) {
+    @media (min-width: 810px) {
         @content
      }
 }

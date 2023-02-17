@@ -11,7 +11,7 @@ body {
           box-sizing: border-box;
 }
 
-@media (max-width: 538px) {
+@media (max-width: 809px) {
   .servicies_container {
     color: #49166B;
     font-size: 16px;
@@ -66,7 +66,7 @@ body {
   }
 }
 
-@media (min-width: 539px) {
+@media (min-width: 810px) {
   .servicies_container {
     background-color: #eb062c;
   }
