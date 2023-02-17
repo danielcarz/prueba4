@@ -50,9 +50,48 @@
 @include tablet{
     .servicies_container{
         background-color: rgb(235, 6, 44);
-        .container_prueba{
-            background-color: yellow;
+        display: flex;
+    
+
+        .container_images_servicies{
+            display: flex;
+            flex-direction: column;
+
+            position: relative;
+
+            .emoticons_servicies{
+                @include emoticon_wrapper(60px, 60px);
+                margin: 0;
+                padding: 10px;
+
+                img{
+                    @include emoticon(60px, 60px);
+                }
+            }
+
+            .subtittle{
+                @include subtittle;
+                position: absolute;
+                left: 390px;
+            }
+
+            .image_servicios_wrapper{
+                @include card_image(300px, 200px);
+                border: 1px solid black;
+                margin: 0 auto;
+    
+                img{
+                    @include emoticon(300px, 200px)
+                }
+            }
         }
+        .container_info_cards{
+            display: flex;
+            flex-direction: column;
+
+            justify-content: end;
+        }
+        
     }
   
 }

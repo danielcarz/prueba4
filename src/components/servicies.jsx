@@ -10,22 +10,24 @@ const Servicies = () => {
     return(
         <section className="servicies_container">
 
-          
-           <figure className="emoticons_servicies">
+          <figure className="container_images_servicies">
+               <figure className="emoticons_servicies">
 
-                <img src={emoticon} alt="emoticon" />
+                    <img src={emoticon} alt="emoticon" />
            
-           </figure>
-          
-          <div className="container_prueba">
-
+               </figure>
           
                <h2 className="subtittle">REFLEXIOLOGIA</h2>
-           
+
                <figure className="image_servicios_wrapper">
                     <img src={reiki} alt="Servicios" />
                </figure>
 
+          </figure>
+               
+
+               
+          <section className="container_info_cards">
                <div className="text_servicie_wrapper">
                     <p>
                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatibus at itaque dignissimos ipsam laborum nostrum ipsum sunt! Totam, inventore. Soluta at porro recusandae ullam cumque praesentium voluptatem iste sed?
@@ -36,7 +38,10 @@ const Servicies = () => {
                <div className="button_servicies_wrapper">
                     <button className="button_servicies">Reserva</button>
                </div>
-          </div>
+
+          </section>
+              
+          
            
         </section>
     )
