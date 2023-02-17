@@ -51,6 +51,9 @@
     .servicies_container{
         background-color: rgb(235, 6, 44);
         display: flex;
+
+        height: auto;
+        width: 100%;
     
 
         .container_images_servicies{
@@ -72,16 +75,17 @@
             .subtittle{
                 @include subtittle;
                 position: absolute;
-                left: 390px;
+                left: 440px;
+                top: 50px;
             }
 
             .image_servicios_wrapper{
-                @include card_image(300px, 200px);
+                @include card_image(400px, 500px);
                 border: 1px solid black;
                 margin: 0 auto;
     
                 img{
-                    @include emoticon(300px, 200px)
+                    @include emoticon(100%, auto)
                 }
             }
         }
@@ -89,7 +93,19 @@
             display: flex;
             flex-direction: column;
 
-            justify-content: end;
+            justify-content: center;
+
+            .button_servicies_wrapper{
+            
+                text-align: center;
+                
+                margin-bottom: 20px;
+                .button_servicies{
+                    
+                    @include boton(120px, 50px, 10px);
+                    
+                }
+            }
         }
         
     }
