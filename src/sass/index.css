@@ -11,7 +11,7 @@ body {
           box-sizing: border-box;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 538px) {
   .servicies_container {
     color: #49166B;
     font-size: 16px;
@@ -63,6 +63,12 @@ body {
     font-weight: bold;
     font-size: 18px;
     background-color: #308D7C;
+  }
+}
+
+@media (min-width: 539px) {
+  .servicies_container {
+    background-color: blue;
   }
 }
 /*# sourceMappingURL=index.css.map */
