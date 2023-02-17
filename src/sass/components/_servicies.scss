@@ -4,6 +4,8 @@
 
         .emoticons_servicies{
             @include emoticon_wrapper(60px, 60px);
+            margin: 0;
+            padding: 10px;
 
             img{
                 @include emoticon(60px, 60px);

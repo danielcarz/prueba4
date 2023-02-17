@@ -9,12 +9,15 @@ const Servicies = () => {
 
     return(
         <section className="servicies_container">
+
+          
            <figure className="emoticons_servicies">
 
                 <img src={emoticon} alt="emoticon" />
            
            </figure>
-               
+          
+           <h2 >REFLEXIOLOGIA</h2>
            
            <figure className="image_servicios_wrapper">
                 <img src={reiki} alt="Servicios" />
