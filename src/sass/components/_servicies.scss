@@ -45,3 +45,10 @@
     }
     
 }
+
+@include tablet{
+    .servicies_container{
+        background-color: rgb(235, 6, 44);
+    }
+  
+}
