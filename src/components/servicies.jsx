@@ -17,7 +17,7 @@ const Servicies = () => {
            
            </figure>
           
-           <h2 >REFLEXIOLOGIA</h2>
+           <h2 className="subtittle">REFLEXIOLOGIA</h2>
            
            <figure className="image_servicios_wrapper">
                 <img src={reiki} alt="Servicios" />

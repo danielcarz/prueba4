@@ -12,9 +12,14 @@
             }
         }
 
+        .subtittle{
+            @include subtittle;
+        }
+
         .image_servicios_wrapper{
             @include card_image(300px, 200px);
             border: 1px solid black;
+            margin: 0 auto;
 
             img{
                 @include emoticon(300px, 200px)
