@@ -34,9 +34,10 @@
             
             text-align: center;
             
+            margin-bottom: 20px;
             .button_servicies{
                 
-                @include boton(100px, 30px, 10px);
+                @include boton(120px, 50px, 10px);
                 
             }
         }
