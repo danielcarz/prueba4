@@ -70,5 +70,8 @@ body {
   .servicies_container {
     background-color: #eb062c;
   }
+  .servicies_container .container_prueba {
+    background-color: yellow;
+  }
 }
 /*# sourceMappingURL=index.css.map */

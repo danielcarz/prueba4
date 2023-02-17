@@ -1,5 +1,6 @@
 @include phone{
     .servicies_container{
+
         @include card;
 
         .emoticons_servicies{
@@ -49,6 +50,9 @@
 @include tablet{
     .servicies_container{
         background-color: rgb(235, 6, 44);
+        .container_prueba{
+            background-color: yellow;
+        }
     }
   
 }
