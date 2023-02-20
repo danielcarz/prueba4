@@ -19,6 +19,7 @@ body {
     height: auto;
     padding: 5px;
     background-color: #E6F5F5;
+    /* not  funciona */
   }
   .servicies_container .emoticons_servicies {
     width: 60px;
@@ -45,6 +46,9 @@ body {
     width: 300px;
     height: 200px;
   }
+  .servicies_container .prices_servicies {
+    color: blue;
+  }
   .servicies_container .text_servicie_wrapper p {
     text-align: left;
     padding: 20px;
@@ -68,7 +72,7 @@ body {
 
 @media (min-width: 810px) {
   .servicies_container {
-    background-color: #eb062c;
+    background-color: #E6F5F5;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -124,6 +128,9 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .servicies_container .container_info_cards .prices_servicies {
+    color: green;
   }
   .servicies_container .container_info_cards .button_servicies_wrapper {
     text-align: center;

@@ -27,6 +27,11 @@
             }
         }
 
+        /* not  funciona */
+        .prices_servicies{
+            color: blue;
+        }
+
         .text_servicie_wrapper p{
             @include text
         }
@@ -49,7 +54,7 @@
 
 @include tablet{
     .servicies_container{
-        background-color: rgb(235, 6, 44);
+        background-color:$color_backgrounds_cards;
         display: flex;
 
         height: auto;
@@ -94,6 +99,10 @@
             flex-direction: column;
 
             justify-content: center;
+
+            .prices_servicies{
+                color: green;
+            }
 
             .button_servicies_wrapper{
             

@@ -32,7 +32,7 @@ const Servicies = () => {
                     <p>
                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatibus at itaque dignissimos ipsam laborum nostrum ipsum sunt! Totam, inventore. Soluta at porro recusandae ullam cumque praesentium voluptatem iste sed?
                     </p>
-                    <p>$ 100.000.00</p>
+                    <p className="prices_servicies">$ 100.000.00</p>
                </div>
 
                <div className="button_servicies_wrapper">
