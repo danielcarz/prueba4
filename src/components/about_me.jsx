@@ -10,7 +10,7 @@ const AboutMe = () => {
 
     return (
 
-        <section>
+        <section className="about_me_container">
             <figure className="about_me_images">
                 <img src="" alt="about me images" />
             </figure>

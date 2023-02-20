@@ -12,6 +12,12 @@ body {
 }
 
 @media (max-width: 809px) {
+  .about_me_container {
+    background-color: aqua;
+  }
+}
+
+@media (max-width: 809px) {
   .servicies_container {
     color: #49166B;
     font-size: 16px;
