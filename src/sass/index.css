@@ -128,17 +128,21 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    position: relative;
   }
-  .servicies_container .container_info_cards .prices_servicies {
-    color: green;
+  .servicies_container .container_info_cards .text_servicie_wrapper .prices_servicies {
+    position: absolute;
   }
   .servicies_container .container_info_cards .button_servicies_wrapper {
     text-align: center;
     margin-bottom: 20px;
+    position: absolute;
+    bottom: 20px;
+    right: 125px;
   }
   .servicies_container .container_info_cards .button_servicies_wrapper .button_servicies {
-    width: 120px;
-    height: 50px;
+    width: 150px;
+    height: 60px;
     border-radius: 10px;
     border: none;
     text-align: center;
