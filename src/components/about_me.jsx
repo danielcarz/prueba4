@@ -4,6 +4,7 @@ import React from "react";
 import icon_one from '../assets/emoticons/simbolos-de-reiki.png';
 import icon_two from '../assets/emoticons/reiki.png';
 import icon_three from '../assets/emoticons/simbolos-de-reiki(1).png';
+import about_me_mobile from '../assets/images/about_me_mobile.jpg'
 
 const AboutMe = () => {
 
@@ -12,9 +13,9 @@ const AboutMe = () => {
 
         <section className="about_me_container">
             <h2>About me</h2>
-            
+
             <figure className="about_me_image_wrapper">
-                <img src="" alt="about me images" />
+                <img src={about_me_mobile} alt="about me images" />
             </figure>
 
             <section className="about_me_info_wrapper">

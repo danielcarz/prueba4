@@ -1,13 +1,21 @@
 @include phone{
     .about_me_container{
+        @include card;
+        background-color: whitesmoke;  
 
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
+
+        
         
         .about_me_image_wrapper{
+            width: 95%; 
+            margin: 10px;
+            
             border: 1px  solid black; 
             img{
-                @include card_image(300px, 200px);
+                @include card_image(100%, 200px);
+                max-width: 400px;
             }
 
 
