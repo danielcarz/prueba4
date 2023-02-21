@@ -1,17 +1,31 @@
 @include phone{
     .about_me_container{
+
+        display: flex;
+        flex-direction: column; 
         
         .about_me_image_wrapper{
+            border: 1px  solid black; 
             img{
-
+                @include card_image(300px, 200px);
             }
 
 
         }
         .about_me_info_wrapper{
 
+            padding: 20px;
+
             .about_me_icons{
-                
+                display: flex;
+                justify-content: center;
+
+                img{
+                    @include emoticon(60px, 60px);
+                    
+                    margin-right: 30px;
+                }
+                 
             }
         
         }

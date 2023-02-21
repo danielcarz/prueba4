@@ -23,14 +23,11 @@
             margin: 0 auto;
 
             img{
-                @include emoticon(300px, 200px)
+                @include emoticon(300px, 200px);
             }
         }
 
-        /* not  funciona */
-        .prices_servicies{
-            color: blue;
-        }
+        
 
         .text_servicie_wrapper p{
             @include text

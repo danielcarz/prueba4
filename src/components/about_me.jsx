@@ -11,12 +11,14 @@ const AboutMe = () => {
     return (
 
         <section className="about_me_container">
+            <h2>About me</h2>
+            
             <figure className="about_me_image_wrapper">
                 <img src="" alt="about me images" />
             </figure>
 
             <section className="about_me_info_wrapper">
-                <h2>About me</h2>
+                
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias quidem quaerat recusandae nisi fugit aliquam tenetur praesentium sed corporis facilis laudantium nulla nobis molestias commodi eligendi, est quisquam aliquid laboriosam!</p>
                 <figure className="about_me_icons">
                     <img src={icon_one} alt="icon" />
