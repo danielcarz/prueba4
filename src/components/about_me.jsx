@@ -11,7 +11,7 @@ const AboutMe = () => {
     return (
 
         <section className="about_me_container">
-            <figure className="about_me_images">
+            <figure className="about_me_image_wrapper">
                 <img src="" alt="about me images" />
             </figure>
 
