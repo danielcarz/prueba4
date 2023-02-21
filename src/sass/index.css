@@ -11,8 +11,8 @@ body {
           box-sizing: border-box;
 }
 
-h1 {
-  color: blue;
+.introduction_container .navbar {
+  display: none;
 }
 
 @media (max-width: 809px) {
