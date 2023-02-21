@@ -11,6 +11,10 @@ body {
           box-sizing: border-box;
 }
 
+h1 {
+  color: blue;
+}
+
 @media (max-width: 809px) {
   .about_me_container {
     color: #49166B;
