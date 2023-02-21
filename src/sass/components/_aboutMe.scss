@@ -43,7 +43,9 @@
 @include tablet{
     .about_me_container{
         display: flex;
-        height: 60vh; 
+        height: 60vh;
+        
+        position: relative;
 
         .about_me_image_wrapper{
             width: 95%;  
@@ -55,10 +57,21 @@
                 
             }
 
+            .about_me_tittle{
+                position: absolute;
+                right: 740px;
+                top: 50px;
+            }
+
 
         }
 
         .about_me_info_wrapper{
+
+            display: flex;
+            flex-direction: column;
+
+            align-self: center;
 
             .about_me_icons{
                 display: flex;
