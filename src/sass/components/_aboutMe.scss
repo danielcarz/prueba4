@@ -11,11 +11,18 @@
         .about_me_image_wrapper{
             width: 95%;  
             margin: 0 auto;
+
+            
+
+            text-align: center; 
+             
             
             border: 1px  solid black; 
             img{
                 @include card_image(100%, 200px);
                 max-width: 400px;
+                margin: 0 auto;
+                
             }
 
 
@@ -44,12 +51,16 @@
     .about_me_container{
         display: flex;
         height: 60vh;
+        padding: 10px; 
         
         position: relative;
 
         .about_me_image_wrapper{
-            width: 95%;  
+            width: 50%;  
             margin: 0 auto;
+
+            display: flex;
+            align-self: center;
              
             border: 1px  solid black; 
             img{
@@ -59,7 +70,7 @@
 
             .about_me_tittle{
                 position: absolute;
-                right: 740px;
+                right: 240px;
                 top: 50px;
             }
 
@@ -70,12 +81,17 @@
 
             display: flex;
             flex-direction: column;
-
             align-self: center;
+
+            padding: 40px;
+            width: 50%;
+
+           
 
             .about_me_icons{
                 display: flex;
                 justify-content: center;
+                align-self: center;
 
                 img{
                     @include emoticon(60px, 60px);
