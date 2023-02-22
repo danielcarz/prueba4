@@ -46,6 +46,107 @@ body {
   }
 }
 
+@media (min-width: 810px) {
+  .introduction_container .logo_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .introduction_container .logo_wrapper img {
+    width: 300px;
+    height: 300px;
+  }
+  .introduction_container .navbar {
+    background-color: #E6F5F5;
+    height: 120px;
+  }
+  .introduction_container .navbar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .introduction_container .navbar ul a {
+    text-decoration: none;
+  }
+  .introduction_container .lema_ashira_wrapper {
+    background-color: #8B4589;
+    height: 190px;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    text-align: center;
+  }
+  .lema_ashira_wrapper {
+    background-color: #8B4589;
+    height: 190px;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    text-align: center;
+  }
+}
+
+@media (min-width: 952px) {
+  .introduction_container .logo_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .introduction_container .logo_wrapper img {
+    width: 300px;
+    height: 300px;
+  }
+  .introduction_container .navbar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .introduction_container .navbar ul a {
+    text-decoration: none;
+  }
+  .introduction_container .lema_ashira_wrapper {
+    background-color: #8B4589;
+    height: 190px;
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    text-align: center;
+  }
+}
+
 @media (max-width: 809px) {
   .about_me_container {
     color: #49166B;
