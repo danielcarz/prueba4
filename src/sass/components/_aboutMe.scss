@@ -48,15 +48,20 @@
 }
 
 @include tablet{
+
+    
     .about_me_container{
         display: flex;
-        height: 60vh;
+        height: 50vh;
         padding: 10px; 
         
         position: relative;
 
+       
+
         .about_me_image_wrapper{
-            width: 60%;  
+            width: 70%;
+            height: auto;  
             margin: 0 auto;
 
             display: flex;
@@ -64,7 +69,8 @@
              
             border: 1px  solid rgb(243, 7, 7); 
             img{
-                @include card_image(100%, 370px);
+                @include card_image(100%, 350px);
+                
                 
             }
 
@@ -107,7 +113,9 @@
 @include desktop{
     .about_me_container{
         
-        margin-top: 55px; 
+        margin-top: 55px;
+        margin-bottom: 70px;
+
 
         .about_me_image_wrapper{
             width: 60%;  
@@ -118,7 +126,7 @@
              
             border: 1px  solid rgb(243, 7, 7); 
             img{
-                @include card_image(100%, 570px);
+                @include card_image(100%, 550px);
                 
             }
 
