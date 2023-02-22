@@ -1,28 +1,37 @@
-.introduction_container{
-    width: 100%;
-    margin: 0 auto;
-    .logo_wrapper{
-        
-        display: flex;
-        justify-content: center;
-        img{
-            @include emoticon(300px, 300px); 
+@include phone{
+
+ 
+    .introduction_container{ 
+        width: 100%;
+        margin: 0 auto;
+
+        .logo_wrapper{
             
-            
+            display: flex;
+            justify-content: center;
+
+            img{ 
+                @include emoticon(300px, 300px); 
+                
+                
+            }
+        }
+
+        .navbar{
+            display: none;
+        }
+
+        .lema_ashira_wrapper{
+            background-color: #8B4589;
+            height: 190px;
+            padding: 10px;
+
+            display: flex;
+            align-items: center;
+
+            color: $color_letter_button;
+            text-align: center;  
         }
     }
-    .navbar{
-        display: none;
-    }
-    .lema_ashira_wrapper{
-        background-color: #8B4589;
-        height: 190px;
-        padding: 10px;
-
-        display: flex;
-        align-items: center;
-
-        color: $color_letter_button;
-        text-align: center;  
-    }
+    
 }
