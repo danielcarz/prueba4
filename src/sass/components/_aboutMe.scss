@@ -56,13 +56,13 @@
         position: relative;
 
         .about_me_image_wrapper{
-            width: 50%;  
+            width: 60%;  
             margin: 0 auto;
 
             display: flex;
             align-self: center;
              
-            border: 1px  solid black; 
+            border: 1px  solid rgb(243, 7, 7); 
             img{
                 @include card_image(100%, 370px);
                 
@@ -84,7 +84,7 @@
             align-self: center;
 
             padding: 40px;
-            width: 50%;
+            width: 40%;
 
            
 
@@ -102,4 +102,50 @@
             }
         }
     }
+}
+
+@include desktop{
+    .about_me_container{
+        
+        margin-top: 55px; 
+
+        .about_me_image_wrapper{
+            width: 60%;  
+            margin: 0 auto;
+
+            display: flex;
+            align-self: center;
+             
+            border: 1px  solid rgb(243, 7, 7); 
+            img{
+                @include card_image(100%, 570px);
+                
+            }
+
+            .about_me_tittle{
+                
+            }
+
+
+        }
+
+        .about_me_info_wrapper{
+
+
+
+           
+
+            .about_me_icons{
+                
+
+                img{
+                   
+                }
+                 
+            }
+        }
+    }
+
+
+
 }
