@@ -9,7 +9,7 @@ function App() {
   
 
   return (
-    <div className="App">
+    <div className="App"> 
       <Introduction></Introduction>
       <AboutMe></AboutMe>
       <Servicies></Servicies>
